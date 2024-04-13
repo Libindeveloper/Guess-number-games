@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number Game..</title>
+    <link rel="icon" href="image/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-info">
+        <div class="row">
+            <div class="col bg-primary">
+                <img class="img-fluid m-1" width="80px" src="image/logo.png" title="Libindeveloper" alt="LibinDeveloper">
+            </div>
+            <div class="col">
+                <h1 class="mt-2">Tiger Guess Game..</h1>
+
+            </div>
+            <div class="col bg-primary">
+                <ul class="list-inline mt-3">
+                    <li class=" list-inline-item btn btn-outline-info active m-1 pe-4"><a class="text-white text-decoration-none" href="#">Home</a></li>
+                    <li class=" list-inline-item btn btn-outline-info m-1 "><a class="text-white text-decoration-none" href="#" onclick="checkanswer()">Answer</a></li>
+                    <li class=" list-inline-item btn btn-outline-info m-1"><a class="text-white text-decoration-none" href="#condact"> Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container bg-black text-white p-5 border border-light">
+        <h1 class="display-1 text-warning">Guess Number Game</h1>
+        <h3 class="">Please Guess any number  (0-10) </h3>
+        <input id="guesnumber" placeholder="Enter your Guess Number">
+        <button class="btn btn-danger" onclick="check()">check</button>
+        <h3 class="text-danger " id="result">You: </h3>
+        <h2 class="text-success" id="score"> Your score:10</h2>
+    </div>
+    <footer class="bg-primary">
+                <h1 class=" text-light ms-5  " id="condact">Contact</h1>
+                <h3 class=" text-light ms-2  ">singlesingle574@gmail.com</h3>
+                <h5 class=" text-light ms-5  ">&copy;2024</h5>
+                <p class="ms-5" id="answer">Answer</p>
+    </footer>
+    <!-- script -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
